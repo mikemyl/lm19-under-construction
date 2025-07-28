@@ -208,6 +208,12 @@ const getOtherProjects = (currentProjectId: string) => {
         }));
 };
 
+export async function generateStaticParams() {
+    return projectDetails.map((project) => ({
+        projectId: project.id,
+    }));
+}
+
 export default async function ProjectDetail({params}: { params: Promise<{ projectId: string }> }) {
     const {projectId} = await params;
     const project = projectDetails.find(p => p.id === projectId);

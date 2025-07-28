@@ -7,5 +7,6 @@ public
 .vscode
 .DS_Store
 .next
+out
 yarn-error.log
 npm-debug.log
