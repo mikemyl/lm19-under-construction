@@ -58,7 +58,7 @@ const getProjectImages = (projectId: string) => {
 
     return Array.from({length: config.count}, (_, index) => ({
         id: String(index + 1),
-        url: `/projects/${projectId}/current-${index + 1}.png`,
+        url: `/projects/${projectId}/current-${index + 1}.webp`,
         alt: `${projectId} image ${index + 1}`,
         layout: config.layout[index] as 'full' | 'half' | 'third'
     }));
@@ -204,7 +204,7 @@ const getOtherProjects = (currentProjectId: string) => {
             id: project.id,
             name: project.name,
             category: project.category,
-            image: `/projects/${currentProjectId}/other-${index + 1}.png`
+            image: `/projects/${currentProjectId}/other-${index + 1}.webp`
         }));
 };
 
@@ -353,7 +353,7 @@ export default async function ProjectDetail({params}: { params: Promise<{ projec
                                     <div
                                         className={`relative w-full ${containerHeight} bg-gray-100 overflow-hidden group cursor-pointer`}>
                                         <Image
-                                            src={`/projects/${projectId}/other-${index + 1}.png`}
+                                            src={`/projects/${projectId}/other-${index + 1}.webp`}
                                             alt={otherProject.name}
                                             fill
                                             sizes="(max-width: 1024px) 100vw, 33vw"

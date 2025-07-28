@@ -11,9 +11,10 @@ export default function Home() {
             <section className="relative">
                 <div className="relative h-[45vh] md:h-[60vh] lg:h-[70vh] overflow-hidden">
                     <Image
-                        src="/home/hero-image.png"
+                        src="/home/hero-image.webp"
                         alt="LM19 Interior Design Hero"
                         fill
+                        sizes="100vw"
                         className="object-cover"
                         priority
                     />
@@ -42,9 +43,10 @@ export default function Home() {
                     {/* Project 1 - Bedroom */}
                     <div className="relative aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/home/project-image-1.png"
+                            src="/home/project-image-1.webp"
                             alt="Bedroom Project"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>
@@ -52,9 +54,10 @@ export default function Home() {
                     {/* Project 2 - Bathroom */}
                     <div className="relative aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/home/project-image-2.png"
+                            src="/home/project-image-2.webp"
                             alt="Bathroom Project"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>
@@ -84,9 +87,10 @@ export default function Home() {
                     {/* Project 4 - Kitchen */}
                     <div className="relative aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/home/project-image-3.png"
+                            src="/home/project-image-3.webp"
                             alt="Kitchen Project"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>
@@ -105,17 +109,19 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-4 mb-8">
                     <div className="relative aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/home/art1.png"
+                            src="/home/art1.webp"
                             alt="Art Inspiration 1"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>
                     <div className="relative aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/home/art2.png"
+                            src="/home/art2.webp"
                             alt="Art Inspiration 2"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>
@@ -124,9 +130,10 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-4 mb-12">
                     <div className="relative aspect-square bg-black overflow-hidden flex items-center justify-center">
                         <Image
-                            src="/home/art3.png"
+                            src="/home/art3.webp"
                             alt="Art Inspiration 3"
                             fill
+                            sizes="(max-width: 768px) 50vw, 33vw"
                             className="object-cover"
                         />
                     </div>

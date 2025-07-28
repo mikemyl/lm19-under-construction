@@ -32,13 +32,13 @@ const projects: Project[] = [
 ];
 
 const projectImages: ProjectImage[] = [
-  { id: "1", url: "/projects/main/project_image_1_loft.png", alt: "Modern loft living room", projectId: "LOFT" },
-  { id: "2", url: "/projects/main/project_image_2_airbnb.png", alt: "Airbnb", projectId: "AirBnb" },
-  { id: "3", url: "/projects/main/project_image_3_apartment.png", alt: "Apartment", projectId: "Apartment" },
-  { id: "4", url: "/projects/main/project_image_4_apartment.png", alt: "Apartment", projectId: "Apartment_2" },
-  { id: "5", url: "/projects/main/project_image_5_apartment.png", alt: "Apartment", projectId: "Apartment_3" },
-  { id: "6", url: "/projects/main/project_image_6_villa.png", alt: "Villa", projectId: "Country_Villa" },
-  { id: "7", url: "/projects/main/project_image_7_apartment.png", alt: "Apartment", projectId: "Apartment_4" }
+  { id: "1", url: "/projects/main/project_image_1_loft.webp", alt: "Modern loft living room", projectId: "LOFT" },
+  { id: "2", url: "/projects/main/project_image_2_airbnb.webp", alt: "Airbnb", projectId: "AirBnb" },
+  { id: "3", url: "/projects/main/project_image_3_apartment.webp", alt: "Apartment", projectId: "Apartment" },
+  { id: "4", url: "/projects/main/project_image_4_apartment.webp", alt: "Apartment", projectId: "Apartment_2" },
+  { id: "5", url: "/projects/main/project_image_5_apartment.webp", alt: "Apartment", projectId: "Apartment_3" },
+  { id: "6", url: "/projects/main/project_image_6_villa.webp", alt: "Villa", projectId: "Country_Villa" },
+  { id: "7", url: "/projects/main/project_image_7_apartment.webp", alt: "Apartment", projectId: "Apartment_4" }
 ];
 
 const categories = ["All Projects", "Loft", "Apartments", "Airbnb", "Country Villas"];

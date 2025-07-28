@@ -19,7 +19,7 @@ export default function Contact() {
                     <div className="lg:w-1/2">
                         <div className="relative aspect-[3/4] bg-gray-100 overflow-hidden">
                             <Image
-                                src="/contact/contact-hello.png"
+                                src="/contact/contact-hello.webp"
                                 alt="Interior Design Workspace"
                                 fill
                                 className="object-cover"

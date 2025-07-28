@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                     <div className="relative col-start-2 aspect-square bg-gray-100 overflow-hidden">
                         <Image
-                            src="/about/about-interior-designer.png"
+                            src="/about/about-interior-designer.webp"
                             alt="Bedroom Project"
                             fill
                             className="object-cover"
@@ -81,7 +81,7 @@ export default function About() {
                         <div
                             className="relative aspect-square bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
                             <Image
-                                src="/about/about-project-image-1.png"
+                                src="/about/about-project-image-1.webp"
                                 alt="Bedroom Project"
                                 fill
                                 className="object-cover"
@@ -91,7 +91,7 @@ export default function About() {
                         <div
                             className="relative aspect-square bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
                             <Image
-                                src="/about/about-project-image-2.png"
+                                src="/about/about-project-image-2.webp"
                                 alt="Bedroom Project"
                                 fill
                                 className="object-cover"
