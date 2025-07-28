@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'N27';
+  src: url('/fonts/N27-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'N27';
+  src: url('/fonts/N27-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'N27';
+  src: url('/fonts/N27-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #2B292A;
+  --color-blue: #A8B8BE;
+  --color-sage: #A6AC3A;
+  --color-mauve: #AEA1A8;
+  --color-orange: #B25A38;
+  --color-light-blue: #E7EDED;
+  --color-light-sage: #CED4CB;
+  --color-peach: #DFA36D;
+  --color-mustard: #CA9434;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'N27', Arial, sans-serif;
+}
