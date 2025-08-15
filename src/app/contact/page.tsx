@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 import Socials from "@/components/Socials";
 
 export default function Contact() {
@@ -56,9 +57,11 @@ export default function Contact() {
                                 ANY QUESTION
                             </p>
                             
-                            <button className="bg-[#2B292A] text-white px-8 py-3 text-sm lg:text-lg font-bold hover:opacity-90 transition-opacity" style={{fontFamily: 'N27, sans-serif'}}>
-                                GET IN TOUCH
-                            </button>
+                            <Link href="/contact-form">
+                                <button className="bg-[#2B292A] text-white px-8 py-3 text-sm lg:text-lg font-bold hover:opacity-90 transition-opacity" style={{fontFamily: 'N27, sans-serif'}}>
+                                    GET IN TOUCH
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
