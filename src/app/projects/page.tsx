@@ -22,7 +22,6 @@ interface ProjectImage {
 
 // Sample data - will be replaced with Contentful data later
 const projects: Project[] = [
-  { id: "LOFT", name: "Modern Loft", category: "Loft" },
   { id: "AirBnb", name: "Airbnb", category: "Airbnb" },
   { id: "Apartment", name: "Apartment", category: "Apartments" },
   { id: "Apartment_2", name: "Apartment 2", category: "Apartments" },
@@ -32,7 +31,6 @@ const projects: Project[] = [
 ];
 
 const projectImages: ProjectImage[] = [
-  { id: "1", url: "/projects/main/project_image_1_loft.webp", alt: "Modern loft living room", projectId: "LOFT" },
   { id: "2", url: "/projects/main/project_image_2_airbnb.webp", alt: "Airbnb", projectId: "AirBnb" },
   { id: "3", url: "/projects/main/project_image_3_apartment.webp", alt: "Apartment", projectId: "Apartment" },
   { id: "4", url: "/projects/main/project_image_4_apartment.webp", alt: "Apartment", projectId: "Apartment_2" },
@@ -41,7 +39,7 @@ const projectImages: ProjectImage[] = [
   { id: "7", url: "/projects/main/project_image_7_apartment.webp", alt: "Apartment", projectId: "Apartment_4" }
 ];
 
-const categories = ["All Projects", "Loft", "Apartments", "Airbnb", "Country Villas"];
+const categories = ["All Projects", "Apartments", "Airbnb", "Country Villas"];
 
 export default function Projects() {
     const [selectedCategory, setSelectedCategory] = useState("All Projects");

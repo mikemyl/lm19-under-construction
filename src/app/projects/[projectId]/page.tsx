@@ -43,10 +43,6 @@ const getProjectImages = (projectId: string) => {
             count: 2,
             layout: ["full", "full"]
         },
-        "LOFT": {
-            count: 4,
-            layout: ["full", "third", "third", "third"]
-        },
         "AirBnb": {
             count: 2,
             layout: ["full", "full"]
@@ -164,17 +160,6 @@ const projectDetails: ProjectDetail[] = [
                     built-in desk area maximizes space for work or study, while the overall ambience feels calm and
                     contemporary.</>
             ]
-    },
-    {
-        id: "LOFT",
-        name: "Loft",
-        category: "Loft",
-        images: getProjectImages("LOFT"),
-        descriptions: [
-            <>The <strong>renovation of this attic</strong> was focused on smart solutions to create more space to meet
-                all needs, with an open plan solution. The approach we used was a modern, minimalist aesthetic with a
-                focus on clean lines and natural materials.</>
-        ]
     },
     {
         id: "AirBnb",
